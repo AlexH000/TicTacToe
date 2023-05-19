@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    font-family: 'Pacifico', cursive;;
+    src: url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(looseleaf.jpeg);
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+}
+table {
+    border-collapse: collapse;
+    border-style : hidden!important;
+}
+td {
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.8em;
+
+}
+button {
+    margin-top: 1.7%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: black;
+    cursor:pointer ;
+}
+
+div {
+    padding-top: 4.2%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.2em;
+}
